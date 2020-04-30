@@ -21,7 +21,7 @@ export default function NasaTitle() {
       <h1>{data.title}</h1>
       <h3>{data.date}</h3>
       <NasaImg 
-        image={data.url}
+        url={data.url}
       />
       <NasaExplanation 
         explanation={data.explanation}
