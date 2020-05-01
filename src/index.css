@@ -11,3 +11,50 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
+.card-container {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  margin: 6% auto;
+  border-color: red;
+}
+
+.photo-title {
+  display: flex;
+  justify-content: center;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.photo-date {
+  display: flex;
+  justify-content: center;
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+.card-info {
+  margin: 0 5%;
+  font-size: 1.1rem;
+  line-height: 1.9;
+}
+
+.btn {
+  width: 500px;
+  margin: 4% 30%;
+  font-size: 1.5rem;
+}
+
+.btn:hover {
+  background-color: white;
+  border-color: red;
+  color: red;
+}
